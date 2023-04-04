@@ -1,14 +1,12 @@
 {
   "name": "demo-eleventy-from-scratch-blog",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Companion code to the “6 Minutes to Build a Blog from Scratch” tutorial.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@11ty/eleventy": "^2.0.1"
   }
